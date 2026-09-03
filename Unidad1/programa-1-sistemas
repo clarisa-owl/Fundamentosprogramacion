@@ -1,0 +1,158 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMCfSl7uUE+/XFFXpGy6mWg",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/clarisa-owl/Fundamentosprogramacion/blob/main/Unidad1/programa-1-sistemas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "aPuQndiirK3A",
+        "outputId": "b8e23e94-81bb-4472-aec0-d71f54b84fae"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "unindent does not match any outer indentation level (<tokenize>, line 6)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<tokenize>\"\u001b[0;36m, line \u001b[0;32m6\u001b[0m\n\u001b[0;31m    print (la variable 2, \"es mayor que\", la variable 1)\",\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
+          ]
+        }
+      ],
+      "source": [
+        "  variable1= 30\n",
+        "   variable2= 50\n",
+        "   if variable1 > variable2:\n",
+        "        print ( variable1, \"es mayor que\", variable2)\"\n",
+        "   else:\n",
+        "       print (la variable 2, \"es mayor que\", la variable 1)\",\n",
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " variable1 = 70\n",
+        " variable2 = 70\n",
+        " if variable1 > variable2\n",
+        "    print ( variable1, \"es mayor que\", variable2)\n",
+        "elif variable1 == variable2:\n",
+        "    print( variable2, \"es mayor que\", variable1)\n",
+        " else:\n",
+        "     print(variable2, \"es mayor que\", variable1)\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "2IDjfv_VtNAk",
+        "outputId": "fe9bb4dd-1b29-435b-a993-b3b91b4504e5"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "expected ':' (3781859188.py, line 5)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_795/3781859188.py\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    elif variable1 == variable2\u001b[0m\n\u001b[0m                               ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad = int(input(\"dame tu edad\"))\n",
+        "if edad <= 10:\n",
+        "  print (\"eres un niño\")\n",
+        "elif edad <= 18:\n",
+        "    print (\"eres un adolescente\")\n",
+        "elif edad <=30:\n",
+        "    print (\"eres un adulto joven\")\n",
+        "elif edad <=65:\n",
+        "    print (\"eres un adulto mayor\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mj1zzokDv44Q",
+        "outputId": "98d82a44-9737-42c7-b080-1f9dd03143a6"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dame tu edad15\n",
+            "eres un adolescente\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "edad = int(input(\"dame tu edad\"))\n",
+        "if edad >= 65:\n",
+        "  print (\"eres un adulto mayor\")\n",
+        "elif edad >= 30:\n",
+        "    print (\"eres un adulto joven\")\n",
+        "elif edad >=18:\n",
+        "    print (\"eres un adolescente\")\n",
+        "elif edad >=10:\n",
+        "    print (\"eres un niño\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q_vWBECqxf-2",
+        "outputId": "30877228-2eae-4d75-92c4-89a3f302719d"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dame tu edad10\n",
+            "eres un niño\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
