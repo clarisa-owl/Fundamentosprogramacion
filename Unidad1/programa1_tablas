@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMdyByBkVfUqU0Z5fv1wGqe",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/clarisa-owl/Fundamentosprogramacion/blob/main/Unidad1/programa1_tablas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "XMN6TXp8NIaF"
+      },
+      "outputs": [],
+      "source": [
+        "inicio = int(input(\"¿en que tabla quieres empezar?\"))\n",
+        "fin = int(input(\"¿en que tabla quieres terminar'\"))\n",
+        "salto = int(input(\"¿de cuanto quieres que sea el salto?\"))\n",
+        "\n",
+        "for tabla in range (inicio, fin, salto):\n",
+        "  print (\"tabla del\", tabla)\n",
+        "  for numero in range (1, 11):\n",
+        "    print(tabla, \"*\", numero, \"=\", tabla * numero)"
+      ]
+    }
+  ]
+}
