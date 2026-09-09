@@ -1,20 +1,4 @@
 {
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyOIPVn90Gty53YqN8Ux9Ssd",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
   "cells": [
     {
       "cell_type": "markdown",
@@ -39,9 +23,9 @@
       },
       "outputs": [
         {
-          "output_type": "error",
           "ename": "IndentationError",
           "evalue": "unindent does not match any outer indentation level (<tokenize>, line 6)",
+          "output_type": "error",
           "traceback": [
             "\u001b[0;36m  File \u001b[0;32m\"<tokenize>\"\u001b[0;36m, line \u001b[0;32m6\u001b[0m\n\u001b[0;31m    print (la variable 2, \"es mayor que\", la variable 1)\",\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
           ]
@@ -58,6 +42,25 @@
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "2IDjfv_VtNAk",
+        "outputId": "fe9bb4dd-1b29-435b-a993-b3b91b4504e5"
+      },
+      "outputs": [
+        {
+          "ename": "SyntaxError",
+          "evalue": "expected ':' (3781859188.py, line 5)",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_795/3781859188.py\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    elif variable1 == variable2\u001b[0m\n\u001b[0m                               ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+          ]
+        }
+      ],
       "source": [
         "variable1 = 70\n",
         "variable2 = 70\n",
@@ -67,29 +70,29 @@
         "    print( variable2, \"es mayor que\", variable1)\n",
         "else:\n",
         "     print(variable2, \"es mayor que\", variable1)\n"
-      ],
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 106
         },
-        "id": "2IDjfv_VtNAk",
-        "outputId": "fe9bb4dd-1b29-435b-a993-b3b91b4504e5"
+        "id": "mj1zzokDv44Q",
+        "outputId": "acd267c6-d6bf-4bfd-aaf7-633ee8744e98"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "error",
           "ename": "SyntaxError",
-          "evalue": "expected ':' (3781859188.py, line 5)",
+          "evalue": "expected ':' (1086977323.py, line 10)",
+          "output_type": "error",
           "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_795/3781859188.py\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    elif variable1 == variable2\u001b[0m\n\u001b[0m                               ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_3152/1086977323.py\"\u001b[0;36m, line \u001b[0;32m10\u001b[0m\n\u001b[0;31m    else\u001b[0m\n\u001b[0m        ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
           ]
         }
-      ]
-    },
-    {
-      "cell_type": "code",
+      ],
       "source": [
         "edad = int(input(\"dame tu edad\"))\n",
         "if edad <= 10:\n",
@@ -102,29 +105,27 @@
         "    print (\"eres un adulto\")\n",
         "else\n",
         "    print (\"eres un dullto mayor\")\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 106
-        },
-        "id": "mj1zzokDv44Q",
-        "outputId": "acd267c6-d6bf-4bfd-aaf7-633ee8744e98"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "SyntaxError",
-          "evalue": "expected ':' (1086977323.py, line 10)",
-          "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_3152/1086977323.py\"\u001b[0;36m, line \u001b[0;32m10\u001b[0m\n\u001b[0;31m    else\u001b[0m\n\u001b[0m        ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
-          ]
-        }
       ]
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q_vWBECqxf-2",
+        "outputId": "062d6914-2237-49c9-ffa3-70bdc7bad2ac"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "dame tu edad5\n"
+          ]
+        }
+      ],
       "source": [
         "edad = int(input(\"dame tu edad\"))\n",
         "if edad >= 65:\n",
@@ -136,33 +137,11 @@
         "elif edad >=10:\n",
         "    print (\"eres un niño\")\n",
         "\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "q_vWBECqxf-2",
-        "outputId": "062d6914-2237-49c9-ffa3-70bdc7bad2ac"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "dame tu edad5\n"
-          ]
-        }
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "5 > 10 # esto es un comentario, el resultado es un valor boleano\n",
-        "       # que me regresa verdadero o falso dependiendo de si cumple o no\n",
-        "\n",
-        "\n"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -170,25 +149,28 @@
         "id": "FHkEen3hV05Q",
         "outputId": "b013e107-b781-41f6-c426-e00c6a5738a3"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "execute_result",
           "data": {
             "text/plain": [
               "False"
             ]
           },
+          "execution_count": 6,
           "metadata": {},
-          "execution_count": 6
+          "output_type": "execute_result"
         }
+      ],
+      "source": [
+        "5 > 10 # esto es un comentario, el resultado es un valor boleano\n",
+        "       # que me regresa verdadero o falso dependiendo de si cumple o no\n",
+        "\n",
+        "\n"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "10 >5 and 10 > 7 and 10 < 1"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -196,26 +178,25 @@
         "id": "9u5Bck9iW_ps",
         "outputId": "94bf3168-5f61-4a72-e905-ec05a70fd606"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "execute_result",
           "data": {
             "text/plain": [
               "True"
             ]
           },
+          "execution_count": 7,
           "metadata": {},
-          "execution_count": 7
+          "output_type": "execute_result"
         }
+      ],
+      "source": [
+        "10 >5 and 10 > 7 and 10 < 1"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "# tenemos tres condiciones y operador and y todas deben cumplirs para que el resultado sea verdadero\n",
-        "10 >5 and 10 > 7 and 10 > 11"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -223,25 +204,26 @@
         "id": "r_kJ3f57XmMj",
         "outputId": "7bb46c6a-8e82-4756-c0a0-182e6be61c2e"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "execute_result",
           "data": {
             "text/plain": [
               "False"
             ]
           },
+          "execution_count": 12,
           "metadata": {},
-          "execution_count": 12
+          "output_type": "execute_result"
         }
+      ],
+      "source": [
+        "# tenemos tres condiciones y operador and y todas deben cumplirs para que el resultado sea verdadero\n",
+        "10 >5 and 10 > 7 and 10 > 11"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "10 >5 or 10 > 7 or 10 > 11"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -249,22 +231,42 @@
         "id": "D4l5RFYnXv9e",
         "outputId": "35f5f4bc-218d-4229-be63-2e0997467edc"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "execute_result",
           "data": {
             "text/plain": [
               "True"
             ]
           },
+          "execution_count": 11,
           "metadata": {},
-          "execution_count": 11
+          "output_type": "execute_result"
         }
+      ],
+      "source": [
+        "10 >5 or 10 > 7 or 10 > 11"
       ]
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3QmYgJgHZK2H",
+        "outputId": "d013f75a-568c-4ba4-ef81-4f8cf69388b3"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "dame tu edad14\n",
+            "eres un adolescente\n"
+          ]
+        }
+      ],
       "source": [
         "edad = int(input(\"dame tu edad\"))\n",
         "if edad >= 66:\n",
@@ -278,34 +280,11 @@
         "else:\n",
         "    print (\"eres un niño\")\n",
         "# primero mayor que y luego menor que\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "3QmYgJgHZK2H",
-        "outputId": "d013f75a-568c-4ba4-ef81-4f8cf69388b3"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "dame tu edad14\n",
-            "eres un adolescente\n"
-          ]
-        }
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "## instruccion for siirve ´para repetir instrucciones\n",
-        "tabla = 7\n",
-        "for i in range(10):\n",
-        "  print (tabla, \"*\", i , \"=\", tabla*i )"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -313,11 +292,10 @@
         "id": "7b5pilIDbbZF",
         "outputId": "c2f26913-7104-4c4a-d6b8-f0f0deddfadb"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "7 * 0 = 0\n",
             "7 * 1 = 7\n",
@@ -331,20 +309,26 @@
             "7 * 9 = 63\n"
           ]
         }
+      ],
+      "source": [
+        "## instruccion for siirve ´para repetir instrucciones\n",
+        "tabla = 7\n",
+        "for i in range(10):\n",
+        "  print (tabla, \"*\", i , \"=\", tabla*i )"
       ]
     },
     {
       "cell_type": "code",
-      "source": [],
+      "execution_count": null,
       "metadata": {
         "id": "JztPq2bWMPdU"
       },
-      "execution_count": null,
-      "outputs": []
+      "outputs": [],
+      "source": []
     },
     {
       "cell_type": "code",
-      "source": [],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -352,11 +336,10 @@
         "id": "SpxFeNKydM71",
         "outputId": "7f41e2b1-2052-42e0-d952-1f4eee2a4321"
       },
-      "execution_count": null,
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "7 * 10 = 70\n",
             "7 * 15 = 105\n",
@@ -378,10 +361,32 @@
             "7 * 95 = 665\n"
           ]
         }
-      ]
+      ],
+      "source": []
     },
     {
       "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y9AT_7bkfmGq",
+        "outputId": "f280d8ba-f505-4b07-a104-f12be35a48e5"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "dame tu edad10\n",
+            "eres un niño\n",
+            "eres un adolescente\n",
+            "eres un adulto joven\n",
+            "eres un adulto\n"
+          ]
+        }
+      ],
       "source": [
         "edad = int(input(\"dame tu edad\"))\n",
         "if edad <= 10:\n",
@@ -396,44 +401,11 @@
         "    print (\"eres un dullto mayor\")\n",
         "# SI SE USA IF PUEDE  PASAR QUE ENTRE DENTRO DE VARIAS CONDICIONES Y TODAS SE PONGAN, por eso en estos casos usamos elif\n",
         "\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "Y9AT_7bkfmGq",
-        "outputId": "f280d8ba-f505-4b07-a104-f12be35a48e5"
-      },
-      "execution_count": 8,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "dame tu edad10\n",
-            "eres un niño\n",
-            "eres un adolescente\n",
-            "eres un adulto joven\n",
-            "eres un adulto\n"
-          ]
-        }
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "tabla = int(input(\"¿que tabla de multiplicar quieres\"))\n",
-        "inicio = int(input(\"¿en que tabla quieres empezar?\"))\n",
-        "fin = int(input(\"¿en que tabla quieres terminar\"))\n",
-        "salto = int(input(\"¿de cuanto quieres que sea el salto?\"))\n",
-        "\n",
-        "for tabla in range (inicio, fin, salto):\n",
-        "         print (\"tabla del\", tabla)\n",
-        "for numero in range (1, 11):\n",
-        "            print(tabla, \"*\", numero, \"=\", tabla * numero)\n",
-        "\n",
-        ""
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -441,11 +413,10 @@
         "id": "P1BJvOO1dPZj",
         "outputId": "01ca03b3-a973-48c6-bbe9-4294d08dc06c"
       },
-      "execution_count": 4,
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "¿que tabla de multiplicar quieres7\n",
             "¿en que tabla quieres empezar?8\n",
@@ -464,33 +435,38 @@
             "8 * 10 = 80\n"
           ]
         }
+      ],
+      "source": [
+        "tabla = int(input(\"¿que tabla de multiplicar quieres\"))\n",
+        "inicio = int(input(\"¿en que tabla quieres empezar?\"))\n",
+        "fin = int(input(\"¿en que tabla quieres terminar\"))\n",
+        "salto = int(input(\"¿de cuanto quieres que sea el salto?\"))\n",
+        "\n",
+        "for tabla in range (inicio, fin, salto):\n",
+        "         print (\"tabla del\", tabla)\n",
+        "for numero in range (1, 11):\n",
+        "            print(tabla, \"*\", numero, \"=\", tabla * numero)\n",
+        "\n"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "numero = 5\n",
-        "while numero <= 5:\n",
-        "  print(numero)\n",
-        "  print(\"dentro del while\")\n",
-        "  numero = numero + 1\n",
-        "print(\"fuera del while\")\n"
-      ],
+      "execution_count": null,
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "background_save": true,
+          "base_uri": "https://localhost:8080/"
         },
         "id": "8wDLJNeniYxp",
-        "outputId": "d2b0b684-c2f1-4c96-a1c7-25d483345311"
+        "outputId": "d831145a-2857-4ad4-db49-88a8bc35f713"
       },
-      "execution_count": 12,
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
-            "\u001b[1;30;43mSe han truncado las últimas 5000 líneas del flujo de salida.\u001b[0m\n",
+            "\u001b[1;30;43mStreaming output truncated to the last 5000 lines.\u001b[0m\n",
+            "5\n",
             "dentro del while\n",
             "5\n",
             "dentro del while\n",
@@ -5493,9 +5469,9 @@
           ]
         },
         {
-          "output_type": "error",
           "ename": "KeyboardInterrupt",
           "evalue": "",
+          "output_type": "error",
           "traceback": [
             "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
             "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
@@ -5505,50 +5481,383 @@
             "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
           ]
         }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "tabla = int(input(\"¿que tabla de multiplicar quieres\"))\n",
-        "inicio = int(input(\"¿en que tabla quieres empezar?\"))\n",
-        "fin = int(input(\"¿en que tabla quieres terminar\"))\n",
-        "salto = int(input(\"¿de cuanto quieres que sea el salto?\"))\n",
-        "while inicio >= final:\n",
-        "  print(\"el limite final debe seer mayor que el inicial\")\n",
-        "  final = int(input(\"dame el numero final\"))\n",
-        "for tabla in range (inicio, fin, salto):\n",
-        "         print (\"tabla del\", tabla)\n",
-        "for numero in range (1, 11):\n",
-        "            print(tabla, \"*\", numero, \"=\", tabla * numero)\n",
-        " #agregamos la instruccion while para que valide\n",
-        " #si el valor para usar es correcto y se pueda usar"
       ],
-      "metadata": {
-        "id": "-MZOlF0lkRiz"
-      },
-      "execution_count": null,
-      "outputs": []
+      "source": [
+        "numero = 5\n",
+        "while numero <= 5:\n",
+        "  print(numero)\n",
+        "  print(\"dentro del while\")\n",
+        "numero = numero + 1\n",
+        "print(\"fuera del while\")\n"
+      ]
     },
     {
       "cell_type": "markdown",
       "source": [
-        "**listas en phyton**"
+        "### **listas en phyton**"
       ],
       "metadata": {
-        "id": "hF27Vv1lmiUD"
+        "id": "LL21rcfamrXi"
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "alumnos = ()"
+        "alumnos=[\"ana\", \"luis\", \"carlos\"]\n",
+        "print ( alumnos)\n",
+        "print (alumnos[0])\n",
+        "print (alumnos[2])"
       ],
       "metadata": {
-        "id": "hXKms7zcmzZg"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0zPwPhnynB7q",
+        "outputId": "7324099e-b9de-46b2-a824-4966c8194dcb"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n",
+            "ana\n",
+            "carlos\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#podemos modificar el numero de la lista insertando nombre y cambiando el numero y pocision por el nuevo valor\n",
+        "print(alumnos)\n",
+        "alumnos [2] = \"luis\""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 193
+        },
+        "id": "tdZ_MWeVop_s",
+        "outputId": "5c72c811-26d9-4178-c79c-55d8aa980a91"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'tuple' object does not support item assignment",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1331/492037870.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m#podemos modificar el numero de la lista insertando nombre y cambiando el numero y pocision por el nuevo valor\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0malumnos\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"luis\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (alumnos)\n",
+        "print (alumnos [-1])\n",
+        "print(alumnos [-2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iFlOTUV3pePc",
+        "outputId": "65bb1a9e-bb34-4354-b438-a7eb886503ff"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n",
+            "carlos\n",
+            "luis\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (alumnos)\n",
+        "alumnos.append (\"Sandra\")\n",
+        "print (alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 193
+        },
+        "id": "mWVx9MdLqDTT",
+        "outputId": "81779821-012b-4bad-9709-10cc144d835a"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "AttributeError",
+          "evalue": "'tuple' object has no attribute 'append'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1331/2278870692.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0malumnos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;34m\"Sandra\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'append'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(alumnos)\n",
+        "alumnos.insert (2,\"sofia\")\n",
+        "print (alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 193
+        },
+        "id": "7TPmx5VZrCTz",
+        "outputId": "d2abeb93-b76d-40e2-ec77-76972eec5c33"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "AttributeError",
+          "evalue": "'tuple' object has no attribute 'insert'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1331/3358935642.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0malumnos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0minsert\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\"sofia\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'insert'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# remove mueve un elemento de la lista con el primer valor que encuentra\n",
+        "print (alumnos)\n",
+        "alumnos.remove(\"sofia\")\n",
+        " print (alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 176
+        },
+        "id": "GL_ppcyRr1Tr",
+        "outputId": "648c50c5-1bde-4209-a05c-4fdd1e283737"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "AttributeError",
+          "evalue": "'tuple' object has no attribute 'remove'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1331/821117230.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0malumnos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mremove\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"sofia\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m: 'tuple' object has no attribute 'remove'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# marca error porque queremos añadir un indice que no existe\n",
+        "print (alumnos[2])\n",
+        "print (alumnos [7])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 176
+        },
+        "id": "cgNKkQtYsrpJ",
+        "outputId": "c3bb1d8c-5769-4cb0-fd03-a5c60fb482a0"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "carlos\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "IndexError",
+          "evalue": "tuple index out of range",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1331/2423868761.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0malumnos\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;36m7\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mIndexError\u001b[0m: tuple index out of range"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#permite eliminar un elemento de la lista especificando su pocision\n",
+        "print (alumnos)\n",
+        "alumnos.pop (2)\n",
+        "print (alumnos)"
+      ],
+      "metadata": {
+        "id": "OpvcwOy_tMci"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (alumnos)\n",
+        "print (alumnos)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "um_irjTNtqC0",
+        "outputId": "3d94be3b-6517-4e1d-eccb-0b0fdcb3af22"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "('ana', 'luis', 'carlos')\n",
+            "('ana', 'luis', 'carlos')\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"numero de elementos de la lista\", len(alumnos))\n",
+        "#len permite conocer el numero de elemeentos de la lista"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k6pk-FT6uV7b",
+        "outputId": "67347ad3-7f61-4520-e7a8-6767b8ee0860"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "numero de elementos de la lista 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (alumnos)\n",
+        "for x in alumnos\n",
+        "print (x)\n",
+        "if x == \"sofia\"\n",
+        "print (\"encontramos a sofia\")\n",
+        "#break forza a salir del ciclo"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "LpxEqo9Ovs_b",
+        "outputId": "87177a4c-7e20-422c-9c96-fe98a215d378"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "expected ':' (1610948679.py, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1331/1610948679.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    for x in alumnos\u001b[0m\n\u001b[0m                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m expected ':'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "hZxiPqltv9or"
       },
       "execution_count": null,
       "outputs": []
     }
-  ]
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM2yneoDd1DaL3k5xP1N8Qu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
 }
