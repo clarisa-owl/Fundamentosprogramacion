@@ -11,6 +11,26 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "#**Ingenieria en sistemas computacionales**\n",
+        "\n",
+        "##**Fundamentos de programacion**\n",
+        "\n",
+        "## **Unidad 1**\n",
+        "\n",
+        "### Practica 1: Introduccion al lenguaje de programacion Phyton\n",
+        "\n",
+        "Docente: **Jose Gabriel Rodriguez Rivas**\n",
+        "\n",
+        "Alumno: **Clarisa Alvarado Ramos**\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "rkSGG3SGfhaz"
+      }
+    },
+    {
       "cell_type": "code",
       "execution_count": null,
       "metadata": {
@@ -497,7 +517,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 4,
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -860,7 +880,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNL3DXgJnBBPmyaO1ro1bvy",
+      "authorship_tag": "ABX9TyN1Ru4ocytdbZbVGeftzOEA",
       "include_colab_link": true
     },
     "kernelspec": {
